@@ -10,10 +10,10 @@ namespace FastFoodAPI.Model
         public int Id { get; set; }
         [Required]
         [MaxLength(50)]
-        public string nome { get; set; }
+        public string Nome { get; set; }
         [Required]
         public bool is_Vegetariano { get; set; }
         [Required]
-        public int eta { get; set; }
+        public int Eta { get; set; }
     }
 }
